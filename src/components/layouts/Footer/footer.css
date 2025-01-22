@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: blueviolet;
+}
+span, p {
+    font-size: 15px;
+}
+
+.footer-wrapper-1 {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+footer{
+    justify-content: space-between;
+    width: 92.5%;
+    position: absolute;
+    bottom: 0;
+    padding: 50px;
+    display: flex;
+    background-color: #00d8ff;
+    color: white;
+}
+.location-wrapper, .phone-wrapper, .mail-wrapper {
+    font-weight: 600;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer-wrapper-1 img {
+    width: 30px;
+}
+.location-detalis {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.mail-detalis, .phone-detalis {
+    display: flex;
+}
+.about-company {
+    font-weight: 600;
+}
+.lorem {
+    width: 500px;
+}
+.footer-wrapper-2 {
+    display: flex;
+    flex-direction: column;
+}

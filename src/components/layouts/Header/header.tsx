@@ -1,14 +1,12 @@
-import logo from '../imgs/react.svg'
-import './header.css'
+import logo from '../../../imgs/react.svg'
+import '../Header/header.css'
 import { Link } from 'react-router-dom'
-import { Toggle } from './toggle'
-
 function Header  ()  {
   return (
     <>
     <header>
         <div className='wrapper'>
-            <img src={logo} alt="" />
+           <div className='logo-wrapper'><img src={logo} alt="" /><span className='react-title'>React</span></div> 
             <ul className='li-wrapper'>
               <Link style={{textDecoration: 'none'}} to='/'> <p className="">Home</p></Link> 
               <Link style={{textDecoration: 'none'}} to ='/about'> <p className="">About</p></Link> 
@@ -18,7 +16,7 @@ function Header  ()  {
                 <button>Login</button>
                 <button>Sign Up</button>
             </div>
-            <Toggle />
+
 
 
         </div>
