@@ -1,0 +1,19 @@
+.card-img {
+    width: 100px;
+}
+.product-card-wrapper {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #00d8ff;
+    width: 250px;
+    padding: 30px;
+    color: #fff;
+    font-family: 'Arial';
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #b9b2b2;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

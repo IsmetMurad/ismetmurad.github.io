@@ -1,0 +1,37 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    
+
+}
+.learn-button {
+    width: 150px;
+    border: none;
+    background-color: #00aeff;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Arial';
+    display: flex;
+    justify-content: center;
+
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+.title {
+    font-family: 'Arial';
+    font-size: 60px;
+
+
+}
+.title-description {
+    font-family: 'Arial';
+    font-size: 17px;
+}
+.free {
+    font-weight: 600;
+}

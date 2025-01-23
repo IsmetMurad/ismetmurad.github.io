@@ -37,9 +37,10 @@ const Footer = (props: Props) => {
         </div>
 
         <div className='footer-wrapper-2'>
-            <p className='about-company'>About the company</p>
-            <p className='lorem'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt explicabo debitis quis illum, soluta obcaecati, impedit nobis voluptatibus repudiandae ex aut, corrupti deleniti modi tenetur aperiam iure officia quidem velit!</p>
-
+            <span className='about-company'>About the company</span>
+            <span className='lorem'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt explicabo debitis quis illum, soluta obcaecati, impedit nobis voluptatibus repudiandae ex aut, corrupti deleniti modi tenetur aperiam iure officia quidem velit!</span>
+            <span className='why-us'>Why us</span>
+            <span className='lorem'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure debitis quam perspiciatis? Error ex illo, suscipit minima dolorem omnis quis doloribus consequatur natus, assumenda laudantium est, placeat soluta numquam ab.</span>
         </div>
 
     

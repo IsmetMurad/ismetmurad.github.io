@@ -6,7 +6,12 @@ const AboutDetalis = () => {
     const { id } = useParams()
     console.log(id)
   return (
-    <div>AboutDetalisc {id}</div>
+    <div>
+            <h1>AboutDetalis </h1>
+            <h3>ID is : {id}</h3>
+    </div>
+    
+
   )
 }
 
