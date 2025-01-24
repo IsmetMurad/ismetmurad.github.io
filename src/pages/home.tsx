@@ -1,6 +1,9 @@
 import Spinner from "../components/Spinner/spinner";
+import { useState } from "react";
 import '../pages/home.css'
+import Toggle from "../components/Toggle/toggle";
 function home() {
+  const [toggled, setToggled] = useState(false)
   return (
     <>
     <div className="main-wrapper">
@@ -13,6 +16,7 @@ function home() {
     </div>
 
       <Spinner />
+      <Toggle />
     </>
 
 
