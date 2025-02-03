@@ -2,9 +2,9 @@ import locationLogo from '../../../imgs/location.svg'
 import phoneLogo from '../../../imgs/phone-white.svg'
 import mailLogo from '../../../imgs/mail.svg'
 import "../Footer/footer.css"
-type Props = {}
 
-const Footer = (props: Props) => {
+
+const Footer = () => {
   return (
     <>
     <footer>

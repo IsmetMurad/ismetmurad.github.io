@@ -16,7 +16,9 @@ function home() {
     </div>
 
       <Spinner />
-      <Toggle />
+      <Toggle value={false} onChange={function (): void {
+        throw new Error("Function not implemented.");
+      } } />
     </>
 
 

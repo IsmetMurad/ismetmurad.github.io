@@ -2,9 +2,9 @@ import '../pages/about.css'
 import Badge from '../components/Badge/Badge'
 
 
-type Props = {}
 
-const about = (props: Props) => {
+
+const about = () => {
   return (
     <>
     <div className='badge-wrapper'>
